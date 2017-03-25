@@ -1,0 +1,31 @@
+.container {
+    font-family: "Cherry Cream Soda";
+    font-size: 100px;
+    letter-spacing: 6px;
+    text-align: center;
+    padding: 10px;
+    border: 10px solid white;
+    color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 175px;
+}
+html {
+  animation: bgChange 4s infinite;
+}
+
+@keyframes bgChange{
+  0%{
+     background: #ff8080;
+  }
+  33%{
+background: #af5050;
+  }
+  66%{
+   background: #613d3d;
+  }
+    100%{
+     background: #ff8080;
+  }
+}
