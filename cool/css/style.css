@@ -1,49 +1,29 @@
 .text {
-    font-family: "Anton";
-    font-size: 100px;
-    -webkit-text-stroke: 1px black;
+  font-family: "Comfortaa";
+    font-size: 140px;
+    -webkit-text-stroke: 1px #5d0000;
     color: white;
     text-align: center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: flux-bg 5s infinite;
+    animation: flux-bg 1s infinite linear;
+
 }
 
 .container{
 	margin-top: 80px;
 }
 body{
-  background: #E2FCEF;
+  background: #fbb4ab;
 }
 @keyframes flux-bg {
   0%   {  
-  	background: -webkit-linear-gradient(#ffffff, #fff, #fff); 
+  	background: -webkit-radial-gradient(center, ellipse cover, #fd3434 1%,#ffef01 51%,#fb0000 100%); /* Chrome10-25,Safari5.1-6 */
         -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-    20% { 
-   background: -webkit-linear-gradient(#fff, #fff, #00BCD4); 
-       -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-    40% { 
-   background: -webkit-linear-gradient(#ffffff, #00BCD4, #3b0cf9); 
-       -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-    60% { 
-   background: -webkit-linear-gradient(#00BCD4, #3b0cf9, #ffffff); 
-       -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-    80% { 
-   background: -webkit-linear-gradient(#3b0cf9, #ffffff, #ffffff ); 
-       -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
     100% { 
-   background: -webkit-linear-gradient(#00BCD4, #ffffff, #ffffff); 
+  background: -webkit-radial-gradient(center, ellipse cover, #ebef0f 1%,#ff0000 51%,#f8ff08 100%);
        -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
