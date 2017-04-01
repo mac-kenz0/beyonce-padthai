@@ -1,0 +1,65 @@
+
+html { 
+    background-image: linear-gradient(#fff, #000);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container{
+	 -webkit-animation: friday-midnight 5s infinite ease-out; /* Safari 4+ */
+  -moz-animation:    friday-midnight 5s infinite ease-out; /* Fx 5+ */
+  -o-animation:      friday-midnight 5s infinite ease-out; /* Opera 12+ */
+  animation:         friday-midnight 5s infinite ease-out; /* IE 10+, Fx 29+ */
+  height: 10px;
+      width: 300px;
+          margin-left: auto;
+    margin-right: auto;
+    padding-top: 300px;
+    margin-top: 200px;
+    background: yellow;
+}
+@-webkit-keyframes friday-midnight { 
+  0%   { 
+  	transform: rotate(0deg);
+
+  }
+  100% { 
+   transform: rotate(360deg);
+   
+  }
+}
+@-moz-keyframes friday-midnight {
+   0%   { 
+  	transform: rotate(0deg);
+ 
+  }
+  100% { 
+   transform: rotate(360deg);
+  
+  }
+}
+@-o-keyframes friday-midnight {
+   0%   { 
+  	transform: rotate(0deg);
+ 
+  }
+  100% { 
+   transform: rotate(360deg);
+ 
+  }
+}
+@keyframes friday-midnight {
+   0%   { 
+  	transform: rotate(0deg);
+ 
+  }
+  100% { 
+   transform: rotate(360deg);
+  }
+}

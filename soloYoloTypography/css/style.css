@@ -1,0 +1,111 @@
+html {
+    background: -webkit-linear-gradient(left top, #edf390 , #30c3e6);
+    background: -o-linear-gradient(bottom right, #edf390 , #30c3e6);
+    background: -moz-linear-gradient(bottom right,#edf390 , #30c3e6);
+    background: linear-gradient(to bottom right,#edf390 , #30c3e6);
+    height: 100%;
+}
+.container {
+    font-family: "Cherry Cream Soda";
+    font-size: 100px;
+    letter-spacing: 6px;
+    text-align: center;
+    padding: 10px;
+    border: 10px solid white;
+    color: white;
+width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    position: relative;
+}
+ .char {
+  opacity: 0;
+    position: absolute;
+    top: 25px;
+  }
+.phrase{
+  opacity: 0;
+  position: absolute;
+  
+}
+.firstChar {
+  animation: bgChangeFirstChar 10s infinite;
+  left: 50px;
+}
+.secondChar{
+  animation: bgChangeSecondChar 10s infinite;
+  left: 40px;
+}
+.thirdChar{
+  animation: bgChangeThirdChar 10s infinite;
+  left: 50px;
+}
+.fourthChar{
+  animation: bgChangeFourthChar 10s infinite;
+  left: 40px;
+}
+.fifthIteration{
+    animation: bgChangeFinal 10s infinite;
+    top: 60px;
+    left: 15px;
+    font-size: 36px;
+ 
+}
+@keyframes bgChangeFirstChar{
+  0%{
+     opacity: 0;
+  }
+  5%{
+     opacity: 1;
+  }
+  20%{
+     opacity: 0;
+  }
+}
+
+@keyframes bgChangeSecondChar{
+  15%{
+     opacity: 0;
+  }
+  20%{
+     opacity: 1;
+  }
+  35%{
+     opacity: 0;
+  }
+}
+@keyframes bgChangeThirdChar{
+  35%{
+     opacity: 0;
+  }
+  40%{
+     opacity: 1;
+  }
+ 55%{
+     opacity: 0;
+  }
+}
+@keyframes bgChangeFourthChar{
+  55%{
+     opacity: 0;
+  }
+  60%{
+     opacity: 1;
+  }
+ 75%{
+     opacity: 0;
+  }
+}
+@keyframes bgChangeFinal{
+  75%{
+     opacity: 0;
+  }
+  80%{
+     opacity: 1;
+  }
+  95%{
+     opacity: 0;
+  }
+}
