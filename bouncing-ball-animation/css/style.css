@@ -1,0 +1,31 @@
+svg{
+	border: 3px solid #eee;
+	display: block;
+	margin: 1em auto;
+	
+}
+#bluec{
+	animation: yolo 5s infinite;
+	calcMode: "spline";
+}
+
+@-webkit-keyframes yolo {
+	0% { fill: yellow; }
+	100% { fill: green; }
+}
+@-moz-keyframes yolo {
+	0% { fill: yellow; }
+	100% { fill: green; }
+}
+@-ms-keyframes yolo {
+	0% { fill: yellow; }
+	100% { fill: green; }
+}
+@-o-keyframes yolo {
+	0% { fill: yellow; }
+	100% { fill: green; }
+}
+@keyframes yolo {
+	0% { fill: yellow; }
+	100% { fill: green; }
+}

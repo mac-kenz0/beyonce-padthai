@@ -1,0 +1,52 @@
+.container {
+    background: linen;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.teardrop {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    -webkit-border-top-right-radius: 70px;
+    -webkit-border-bottom-left-radius: 70px;
+    -moz-border-radius-topright: 70px;
+    -moz-border-radius-bottomleft: 70px;
+
+       top: 100px;
+    left: 100px;
+    -webkit-animation: rotate 2.5s infinite; /* Safari 4+ */
+  -moz-animation:    rotate 2.5s infinite; /* Fx 5+ */
+  -o-animation:      rotate 2.5s infinite; /* Opera 12+ */
+  animation:         rotate 2.5s infinite; /* IE 10+, Fx 29+ */
+}
+
+
+
+
+@keyframes rotate {
+	0% { 
+-webkit-border-top-right-radius: 70px;
+    -webkit-border-bottom-left-radius: 70px;
+    -moz-border-radius-topright: 70px;
+    -moz-border-radius-bottomleft: 70px;
+
+	}
+	50% {
+-webkit-border-top-right-radius: 100px;
+    -webkit-border-bottom-left-radius: 100px;
+    -moz-border-radius-topright: 100px;
+    -moz-border-radius-bottomleft:100px;	
+	}
+	100% { 
+-webkit-border-top-right-radius: 70px;
+    -webkit-border-bottom-left-radius: 70px;
+    -moz-border-radius-topright: 70px;
+    -moz-border-radius-bottomleft: 70px;
+
+	}
+
+}

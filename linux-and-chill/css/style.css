@@ -1,0 +1,14 @@
+@import "bourbon";
+
+// elle
+$size: 3;
+
+// elleme
+$width: 52px * $size;
+$height: 80px * $size;
+
+#interacthings { 
+  @include position(absolute, 50% 0 0 50%);
+  @include transform(translateX(-50%) translateY(-50%));
+  @include size($width $height);
+}

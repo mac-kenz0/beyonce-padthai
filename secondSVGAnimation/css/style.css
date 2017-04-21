@@ -1,0 +1,11 @@
+html {
+    height: 100%;
+}
+body {
+    height: inherit;
+    text-align: center;
+}
+svg{
+	padding: 200px;
+	    background: #bedef9;
+}
